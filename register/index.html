@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+  <h1>SURVEY FORM  </h1>
+  <h5> Thank you for taking the time to fill out all the details</h5>
+  <form id="survey-form" method="post">
+    <fieldset>
+      <p>NAME<p>
+    <label>
+  <input id="name" type="text" required placeholder="enter your name"  size="60"  ></input>
+  <p>EMAIL</p>
+  </label>
+  <label>
+  <input id="email" type="text" required placeholder="enter your email" size="60" ></input>
+  <P>AGE(optional)</P>
+  </label>
+  <label>
+  <input id="AGE" type="number" min=16 max=40 placeholder="AGE"  ></input>
+  </label>
+  <p>Which option best describes yourself</p>
+  <label>
+    <select id="currentrole">
+        <option value="">(select one)</option>
+        <option value="1">beginner/student </option>
+        <option value="2"> entreprenur </option>
+        <option value="3"> business guy </option>
+        <option value="4"> checking for jobs </option>
+        <option value="5"> other </option>
+    </select>
+  </label>
+  <p>Would you recommend this website  to a friend?</p>
+  <label class="inline-label">
+    <input id="recommend" type="radio" name="recommend" class="inline">Definetely
+  </label>
+  <label class="inline-label">
+    <input id="recommend" type="radio" name="recommend" class="inline">May be
+  </label>
+  <label class="inline-label">
+    <input id="recommend" type="radio" name="recommend" class="inline">Not sure
+  </label>
+  <p>What is your field of intrest</p>
+  <label>
+    <select id="favorite">
+        <option value="">(select one)</option>
+        <option value="1">engineering</option>
+        <option value="2"> medical<option>
+        <option value="3"> sports </option>
+        <option value="4"> any other ideas </option>
+    </select>
+   
+  </label>
+  <p>click the maximum number of skills you want to learn/you know already</p>
+  <lab>
+    <input id="improve" type="checkbox" class="inline">ROBOTICS</lab>
+    <lab>
+    <input id="improve" type="checkbox" class="inline">CRICKETER </lab>
+    <lab>
+    <input id="improve" type="checkbox" class="inline">RUBIX CUBE SOLVING </lab>
+    <lab>
+    <input id="improve" type="checkbox" class="inline"> COMMUNICATION skills </lab>
+    <lab>
+    <input id="improve" type="checkbox" class="inline"> JUGGLING</lab>
+    <lab>
+    <input id="improve" type="checkbox" class="inline"> CHESS </lab>
+    <lab>
+    <input id="improve" type="checkbox" class="inline">BADMITTON </lab>
+    <lab>
+    <input id="improve" type="checkbox" class="inline">YOUTUBE CHANELL </lab>
+    <lab>
+    <input id="improve" type="checkbox" class="inline"> ORIGAMI</lab>
+              <p>Any comments or suggestions?</p>
+    <label>
+      <textarea id="comment" name="comment" rows="6" cols="40" placeholder="enter your comment here"></textarea>
+    </label>
+    <label>
+      <input type="submit" value="submit">
+    </label>
+  </fieldset>
+  </form>
+</body>
+</html>
